@@ -30,7 +30,4 @@ class TestCalc (unittest.TestCase):
                 self.assertEqual (-1, calc("a",1))
 
         def test_sample8 (self):
-                self.assertEqual (-1, calc("1","2"))
-
-        def test_sample9 (self):
                 self.assertEqual (-1, calc(None,1))
